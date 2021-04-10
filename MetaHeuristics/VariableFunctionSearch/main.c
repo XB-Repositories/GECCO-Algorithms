@@ -65,7 +65,7 @@ int main (int argc, char *argv[]) {
      4.- Number of solution evaluations
      */
     if(argc != 5){
-      printf("Formato incorrecto.\n");
+      printf("Incorrect format.\n");
       exit(1);
     }
 
@@ -79,7 +79,7 @@ int main (int argc, char *argv[]) {
     fd=fopen(Instance,"r");
 
     if(fd==NULL){
-      printf("El fichero especificado no existe.\n");
+      printf("The specified file doesn't exist.\n");
       exit(2);
     }
 

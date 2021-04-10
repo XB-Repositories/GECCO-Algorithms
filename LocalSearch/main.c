@@ -81,7 +81,7 @@ int main (int argc, char *argv[]) {
      3.- Objective function: f (0), f_1 (1), f_2 (2), f_3 (3)
      */
     if(argc != 4){
-      printf("Formato incorrecto.\n");
+      printf("Incorrect format.\n");
       exit(1);
     }
 
@@ -99,7 +99,7 @@ int main (int argc, char *argv[]) {
     fd=fopen(Instance,"r");
 
     if(fd==NULL){
-      printf("El fichero especificado no existe.\n");
+      printf("The specified file doesn't exist.\n");
       exit(2);
     }
 
