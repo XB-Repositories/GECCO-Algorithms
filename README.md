@@ -1,6 +1,8 @@
 # GECCO-Algorithms
 
-Meta-heuristic algorithms used in "On the symmetry of the QAP through the Elementary Landscape Decomposition". The repository is composed of two directories:
+Meta-heuristic algorithms used in "On the symmetry of the QAP through the Elementary Landscape Decomposition". The repository is composed of three directories:
+
+- **Instances:** Includes the QAP instances used in the experimentation.
 
 - **LocalSearch:** Includes the Local Searh algorithm used in the estimation of the number of local optima.
 
