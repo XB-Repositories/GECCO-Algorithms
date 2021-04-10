@@ -1,0 +1,2 @@
+
+void RandomPerm(int *sigma);
